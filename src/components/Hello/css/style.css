@@ -1,0 +1,15 @@
+.card-hello {
+  margin: 0 10px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 16px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.card-hello-warn {
+  color: red;
+}
+
+.card-text-center {
+  text-align: center;
+}

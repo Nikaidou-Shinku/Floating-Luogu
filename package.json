@@ -3,10 +3,36 @@
   "version": "0.1.0",
   "description": "A plugin to decorate Luogu with exquisite user card.",
   "repository": "https://github.com/Nikaidou-Shinku/Floating-Luogu.git",
+  "scripts": {
+    "fix": "yarn webpack --progress --env mode=fix",
+    "dev": "yarn webpack --progress --env mode=dev",
+    "pub": "yarn webpack --progress --env mode=pub",
+    "lint": "yarn eslint -c eslint-publish.json ./src",
+    "type": "yarn tsc -p ./ --noEmit"
+  },
   "author": "yurzhang & tiger2005",
   "license": "MIT",
   "devDependencies": {
+    "@types/eslint": "^8.2.2",
+    "@types/jquery": "^3.5.13",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "css-loader": "^6.5.1",
+    "eslint": "^8.6.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-webpack-plugin": "^3.1.1",
+    "jquery": "^3.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.4",
     "webpack": "^5.66.0",
     "webpack-cli": "^4.9.1"
-  }
+  },
+  "eslintIgnore": [
+    "webpack.config.js"
+  ]
 }

@@ -1,0 +1,109 @@
+{
+  "rules": {
+    "no-console": [
+      "error",
+      {
+        "allow": ["error"]
+      }
+    ],
+    "consistent-return": "error",
+    "default-case": "error",
+    "no-alert": "error",
+    "no-empty-function": "error",
+    "no-magic-numbers": "error",
+    "no-useless-return": "error",
+    "no-warning-comments": [
+      "error",
+      {
+        "terms": ["fixme"],
+        "location": "anywhere"
+      }
+    ],
+    "init-declarations": ["error", "always"],
+
+    "array-bracket-newline": [
+      "error",
+      {
+        "multiline": true
+      }
+    ],
+    "array-bracket-spacing": [
+      "error",
+      "never",
+      {
+        "singleValue": true
+      }
+    ],
+    "array-element-newline": [
+      "error",
+      {
+        "multiline": true
+      }
+    ],
+    "block-spacing": ["error", "always"],
+    "brace-style": [
+      "error",
+      "1tbs",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "comma-dangle": "error",
+    "comma-spacing": "error",
+    "computed-property-spacing": "error",
+    "consistent-this": ["error", "_this"],
+    "eol-last": "error",
+    "func-call-spacing": "error",
+    "func-style": "error",
+    "function-paren-newline": ["error", "consistent"],
+    "implicit-arrow-linebreak": "error",
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "jsx-quotes": "error",
+    "key-spacing": "error",
+    "keyword-spacing": "error",
+    "linebreak-style": ["error", "unix"],
+    "multiline-comment-style": "error",
+    "new-parens": "error",
+    "no-lonely-if": "error",
+    "no-negated-condition": "error",
+    "no-trailing-spaces": "error",
+    "no-whitespace-before-property": "error",
+    "object-curly-newline": "error",
+    "object-property-newline": [
+      "error",
+      {
+        "allowAllPropertiesOnSameLine": true
+      }
+    ],
+    "semi-spacing": "error",
+    "semi-style": "error",
+    "space-before-blocks": "error",
+    "space-before-function-paren": [
+      "error",
+      {
+        "named": "never"
+      }
+    ],
+    "space-in-parens": "error",
+    "space-infix-ops": "error",
+    "space-unary-ops": [
+      "error",
+      {
+        "words": true,
+        "nonwords": true
+      }
+    ],
+    "spaced-comment": "error",
+    "switch-colon-spacing": "error",
+
+    "arrow-body-style": "error",
+    "arrow-parens": "error",
+    "arrow-spacing": "error"
+  }
+}
